@@ -17,12 +17,12 @@ tb_v=${tb_dir}/*.v
 sim_make=${sim_dir}/Makefile
 
 syn_make=${syn_dir}/Makefile
-syn_lib=${lib_dir}/sc_max.db
+#syn_lib=${lib_dir}/sc_max.db
 syn_scr=${syn_dir}/syn.tcl
 sdc_scr=${syn_dir}/syn.sdc
 setup_scr=${syn_dir}/.synopsys_dc.setup
 
-file_list=( $rtl_v $tb_v $sim_make $syn_make $syn_lib $syn_scr $sdc_scr $setup_scr )
+file_list=( $rtl_v $tb_v $sim_make $syn_make $syn_scr $sdc_scr $setup_scr )
 
 if [ -d ${design_dir} ]; then
   echo "${design} files is uploading..."
