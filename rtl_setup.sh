@@ -61,5 +61,3 @@ else
   echo "${design} exists, try another one"
 
 fi
-
-
