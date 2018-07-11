@@ -22,9 +22,9 @@ ungroup -all -flatten
 
 compile -map_effort high
 
-report_timing > timing.rpt
-report_area   > area.rpt
-report_qor    > qor.rpt
+report_timing > ${myDesign}_timing.rpt
+report_area   > ${myDesign}_area.rpt
+report_qor    > ${myDesign}_qor.rpt
 
 write -hierarchy -format ddc
 

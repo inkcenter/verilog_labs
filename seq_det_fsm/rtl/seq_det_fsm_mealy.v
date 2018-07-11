@@ -37,7 +37,7 @@ always @ (curr_state, seq_in) begin
     S5  : if (seq_in==1) begin next_state = S6;   flag = 0; end
           else           begin next_state = IDLE; flag = 0; end
     S6  : if (seq_in==0) begin next_state = S2;   flag = 1; end
-          else           begin next_state = S1;   flag = 0; end
+          else           begin next_state = S4;   flag = 0; end
     default :            begin next_state = IDLE; flag = 0; end
   endcase
 end

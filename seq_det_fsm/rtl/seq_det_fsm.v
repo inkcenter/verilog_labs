@@ -37,7 +37,7 @@ always @ (curr_state, seq_in) begin
     S5  : if (seq_in==1) next_state = S6;
           else           next_state = IDLE;
     S6  : if (seq_in==0) next_state = S7;
-          else           next_state = S1;
+          else           next_state = S4;
     S7  : if (seq_in==1) next_state = S3;
           else           next_state = IDLE;
     default:             next_state = IDLE;
