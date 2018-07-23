@@ -1,5 +1,8 @@
 run: compile simulate
 
+run_hier:
+	vcs -R -sverilog -debug_all +lint=TFIPC-L -f v_top.f -l run_hier.log
+
 compile:
 	vcs \
 	-sverilog \

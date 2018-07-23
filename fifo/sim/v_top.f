@@ -4,3 +4,5 @@
 ./../rtl/write.v
 ./../rtl/read.v
 ./../rtl/fifo_top.v
+./../tb/fifo_top_tb.v
+./../tb/timescale.v

@@ -59,9 +59,7 @@ initial begin
 end
 
 initial begin
-    $dumpfile("*.vcd");
-    $dumpvars(0,**);
-    $vcdpluson(0,tb);
+    $vcdpluson();
 end
 
 endmodule
