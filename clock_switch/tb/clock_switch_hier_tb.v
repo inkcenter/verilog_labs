@@ -1,4 +1,4 @@
-module clock_switch_task_tb;
+module clock_switch_hier_tb;
 
 parameter CLK_PERIOD_0 = 125, CLK_PERIOD_1 = 200, CLK_PERIOD_2 = 100;
 parameter DLY = 10;
@@ -9,8 +9,8 @@ reg       rst_n;
 wire      clk_out;
 
 //instantiate
-clock_switch_task 
-  u_clock_switch_task( .clk_out(clk_out), 
+clock_switch_hier 
+  u_clock_switch_hier( .clk_out(clk_out), 
                        .clk_800M(clk_800M), 
                        .clk_500M(clk_500M), 
                        .clk_1000M(clk_1000M), 

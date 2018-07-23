@@ -2,13 +2,13 @@ RTL  = ./../rtl/clock_switch.v
 TB   = ./../tb/clock_switch_tb.v
 TIME = ./../tb/timescale.v
 
-RTL_task = ./../rtl/clock_switch_task.v
-TB_task  = ./../tb/clock_switch_task_tb.v
+RTL_hier = ./../rtl/clock_switch_hier.v
+TB_hier  = ./../tb/clock_switch_hier_tb.v
 
 run: compile simulate
 
-run_task:
-	vcs -R -sverilog -debug_all $(TIME) $(RTL) $(TB) -l run.log
+run_hier:
+	vcs -R -sverilog -debug_all $(TIME) $(RTL_hier) $(TB_hier) -l run.log
 
 compile:
 	vcs -sverilog -debug_all $(TIME) $(RTL) $(TB) -l com.log

@@ -13,7 +13,7 @@ reg              clk;
 
 always #5 clk = ~clk;
 
-addsub
+addsub   #( .WIDTH(WIDTH))
   u_addsub( .sum(sum),
             .cout(cout),
             .a(a),

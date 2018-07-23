@@ -3,10 +3,12 @@ set search_path ". $search_path ./../library"
 set target_library sc_max.db
 set link_library "* $target_library"
 
-set myClk    clk
-#set myDesign clock_switch
-set myDesign clock_switch_hier
-set myFiles  [list ./../rtl/${myDesign}.v]
+set myClkA   r_clk
+set myClkB   w_clk
+set myDesign fifo
+set myFiles  [list ./../rtl/${myDesign}.v \
+                   ./../rtl/RAM_DUAL_pseudo.v]
+set myConstr "./syn_mcp.sdc"
 
 define_design_lib WORK -path ./WORK
 
@@ -17,7 +19,7 @@ elaborate -work WORK $myDesign
 #set_operating_conditions   typical
 #set_wire_load_model -name "tsmc090_wl10" [all_designs]
 
-source ./syn.sdc
+source $myConstr
 
 ungroup -all -flatten
 
