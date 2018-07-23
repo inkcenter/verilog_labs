@@ -4,8 +4,8 @@ set target_library sc_max.db
 set link_library "* $target_library"
 
 set myClk    clk
-set myDesign clock_switch
-#set myDesign clock_switch_task
+#set myDesign clock_switch
+set myDesign clock_switch_hier
 set myFiles  [list ./../rtl/${myDesign}.v]
 
 define_design_lib WORK -path ./WORK

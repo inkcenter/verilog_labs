@@ -4,8 +4,8 @@ source ~/.bashrc
 echo "Enter your design name:"
 read design
 
-ori_dir=/qixin/proj_users/swru/verilog_labs/rsh
-ori_design=counter10
+ori_dir=/qixin/proj_users/swru/verilog_labs/fifo #to be modified
+ori_design=fifo
 syn_ori=${ori_dir}/syn
 sim_ori=${ori_dir}/sim
 
@@ -31,6 +31,7 @@ ori_sim_make=${sim_ori}/Makefile
 syn_scr=${syn_dir}/syn.tcl
 sdc_scr=${syn_dir}/sdc.tcl
 sim_make=${sim_dir}/Makefile
+sim_file=${sim_dir}/v_list.f
 
 
 
@@ -55,7 +56,7 @@ if [ ! -d ${design_dir} ]; then
 
   touch ${rtl_dir}/${design}.v ${tb_dir}/${design}_tb.v
 
-  sed -i "s/${ori_design}/${design}/g" $sim_make $syn_scr
+  sed -i "s/${ori_design}/${design}/g" $sim_file $syn_scr #$sim_make
 
 else 
   echo "${design} exists, try another one"
