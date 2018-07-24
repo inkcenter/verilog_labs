@@ -25,7 +25,7 @@ write #( .ADDR_WIDTH(ADDR_WIDTH))
               .w_en(w_en),
               .w_ptr(w_ptr),
               .w_ptr_gray(w_ptr_gray),
-              .r_ptr_sync(w_ptr_sync),
+              .r_ptr_sync(r_ptr_sync),
               .w_push(w_push),
               .w_clk(w_clk),
               .w_rst_n(rst_n)

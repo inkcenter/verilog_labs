@@ -41,12 +41,17 @@ initial begin
         rst_n  = 1'b1;
     #1  w_push = 1'b1;
     #5000 r_pop = 1'b1;
-    #2000 w_push= 1'b0;
-    #100  r_pop = 1'b0;
-          w_push= 1'b1;
+    #2000 w_push= 1'b1;
+          r_pop = 1'b0;
     #5000 w_push= 1'b0;
           r_pop = 1'b1;
-    #2000 $finish;
+    #2000 w_push= 1'b1;
+          r_pop = 1'b0;
+    #5000 w_push= 1'b0;
+          r_pop = 1'b1;
+    #2000 w_push= 1'b1;
+          r_pop = 1'b0;
+    #5000 $finish;
 end
 
 initial begin

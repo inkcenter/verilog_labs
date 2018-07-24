@@ -17,7 +17,7 @@ assign r_ptr = r_ptr_x[ADDR_WIDTH-1:0];
 always @ (posedge r_clk or negedge r_rst_n) begin
     if (!r_rst_n) begin
         r_ptr_x <= 0;
-    end else if (r_pop) begin
+    end else if (r_en) begin
         r_ptr_x <= r_ptr_x + 1'b1;
     end
 end

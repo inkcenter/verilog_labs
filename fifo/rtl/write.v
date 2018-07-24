@@ -17,7 +17,7 @@ assign w_ptr = w_ptr_x[ADDR_WIDTH-1:0];
 always @ (posedge w_clk or negedge w_rst_n) begin
     if (!w_rst_n) begin
         w_ptr_x <= 0;
-    end else if (w_push) begin
+    end else if (w_en) begin
         w_ptr_x <= w_ptr_x + 1'b1;
     end
 end
