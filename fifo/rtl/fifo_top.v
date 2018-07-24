@@ -1,5 +1,5 @@
 module fifo_top
-#(parameter ADDR_WIDTH = 10, DATA_WIDTH = 32)
+#(parameter ADDR_WIDTH = 5, DATA_WIDTH = 8)
 (//write clock domain
     output                  w_full,
     input  [DATA_WIDTH-1:0] w_data,

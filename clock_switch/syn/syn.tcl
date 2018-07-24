@@ -19,7 +19,7 @@ elaborate -work WORK $myDesign
 
 source ./syn.sdc
 
-ungroup -all -flatten
+#ungroup -all -flatten
 
 compile -map_effort high
 
