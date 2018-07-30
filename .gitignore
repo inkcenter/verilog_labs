@@ -1,0 +1,21 @@
+# IC frontend
+*.log
+command.*
+*.db
+*.lib
+
+# Simulation
+DVEfiles/*
+csrc/*
+simv
+simv.*/
+ucli.key
+*.vpd
+*.fsdb
+
+# Synthesis
+*.ddc
+*.rpt
+*.svf
+WORK/*
+
