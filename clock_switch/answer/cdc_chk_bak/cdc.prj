@@ -1,0 +1,59 @@
+set_option top gfree3
+set_option work chip_lib
+#source soc_top_pad_read_lib.tcl
+read_file -type sourcelist  file_list.vc
+read_file -type sgdc  sgdc/gfree3.sgdc
+#set_option libhdlf chip_lib {}
+#set_option hdllibdu yes
+
+set_option prefer_tech_lib yes
+set_option lib chip_lib ./chip_lib
+#set_option sort yes
+set_option projectwdir  ./spyglass_results
+set_option language_mode verilog
+set_option enableSV no
+set_option projectcwd .
+set_option mthresh 999999
+set_option enable_gateslib_autocompile yes
+set_option hdlin_translate_off_skip_text yes
+set_option hdlin_synthesis_off_skip_text yes
+set_option enable_const_prop_thru_seq yes
+set_option dw yes
+set_option enable_pgnetlist false
+set_option enable_pgnetlist_all_products no
+set_option report_style sort_sevlabel_wt
+set_option block_abstract_directory .
+set_option nosavepolicy {advpolicy}
+set_option report_ip_waiver yes
+# set_goal_option  addrules W18
+# set_option stop {}
+set_option sdc2sgdc yes
+
+set_parameter sdc_generated_clocks yes
+set_parameter disable_seq_clock_prop yes
+set_parameter enable_clock_gate_sync no
+set_parameter enable_delayed_qualifier no
+set_parameter check_port_setup all
+set_parameter dump_sync_info yes
+set_parameter one_cross_per_dest no
+set_option active_methodology /qixin/eda/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare2.0/block/initial_rtl/
+
+current_methodology  /qixin/eda/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare2.0/block/initial_rtl/
+
+
+
+
+read_file -type waiver  ./waiver/gfree3.swl
+current_goal cdc/cdc_setup -top gfree3
+
+current_goal cdc/cdc_setup_check -top gfree3 
+
+current_goal cdc/cdc_verify_struct -top  gfree3
+
+# current_goal cdc/cdc_verify -top soc_top_pad
+# 
+# current_goal dft/dft_scan_ready 
+# 
+# current_goal lint/synthesis -top soc_top_pad
+
+

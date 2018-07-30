@@ -1,0 +1,12 @@
+current_design gfree3
+#clock -name clk_in0 -period 10 -edge 0 5
+#clock -name clk_in1 -period 10 -edge 0 5
+#clock -name clk_in2 -period 10 -edge 0 5
+#clock -name clk_scan -period 10 -edge 0 5
+
+set_case_analysis -name "scan_dc_mode" -value 0
+set_case_analysis -name "icg_scan_mode" -value 0
+
+reset -name rst_clk_n -value 0 
+
+sdc_data -file ./sdc/gfree3.sdc
