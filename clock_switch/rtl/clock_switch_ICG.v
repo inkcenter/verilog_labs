@@ -11,7 +11,7 @@ module clock_switch_ICG(
 );
 //selection signals
 wire sel_800  = (clk_sel[1:0] == 2'b00);
-wire sel 500  = (clk_sel[1:0] == 2'b01);
+wire sel_500  = (clk_sel[1:0] == 2'b01);
 wire sel_1000 = (clk_sel[1:0] == 2'b10) || (clk_sel[1:0] == 2'b11);
 //enable signals synchoronize registers
 reg en_800_sync0,  en_800_sync1,  en_800_sync2;

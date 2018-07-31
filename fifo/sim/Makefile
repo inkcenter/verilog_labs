@@ -1,10 +1,10 @@
 run: compile simulate
 
 run_hier:
-	vcs -R -sverilog -debug_all +lint=TFIPC-L -f v_top.f -l run_hier.log
+	vcs -full64 -R -sverilog -debug_all +lint=TFIPC-L -f v_top.f -l run_hier.log
 
 compile:
-	vcs \
+	vcs -full64\
 	-sverilog \
 	-debug_all \
 	-l com.log \
@@ -15,7 +15,7 @@ simulate:
 	./simv +ntb_random_seed=$(SEED) -l sim.log
 
 dve:
-	dve -vpd vcdplus.vpd &
+	dve -full64 -vpd vcdplus.vpd &
 
 clean:
 	rm -rf csrc* simv* *.tmp *.key *.vpd *.log DVEfiles coverage *.vdb *hdrs.v core.*
