@@ -20,17 +20,18 @@ VPD_NAME = +vpdfile+$(DESIGN).vpd
 # -fsdb
 VCS = vcs +v2k -override_timescale=1ns/100ps           \
       -full64                                          \
-      -debug_all   		                               \
+			-fsdb                                            \
+      -debug_all   		                                 \
       -sverilog                                        \
       +nospecify                                       \
       +vcs+flush+all                                   \
       $(CM)                                            \
       $(CM_NAME)                                       \
       $(CM_DIR)                                        \
-      $(ALL_DEFINE) 			                       \
+      $(ALL_DEFINE) 			                             \
       $(VPD_NAME)                                      \
       -o  $(DESIGN)                                    \
-      -l  compile.log 
+      -l  compile.log
 # Simulation command
 SIM = ./$(DESIGN)                \
       +ntb_random_seed_automatic \
@@ -54,7 +55,7 @@ cov:
 	dve -full64 -covdir *vdb &
 
 debug:
-	verdi -f file_list.f -ssf $(DESIGN)_tb.fsdb &
+	verdi -f file_list.f -ssf $(DESIGN).fsdb &
 #run_hier:
 #	vcs -R -sverilog -debug_all $(TIME) $(RTL_hier) $(TB_hier) -l run.log
 #compile:

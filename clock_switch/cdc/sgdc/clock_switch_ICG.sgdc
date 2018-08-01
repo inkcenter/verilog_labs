@@ -1,0 +1,12 @@
+current_design clock_switch_ICG
+
+set_case_analysis -name "dc_scan_mode" -value 0
+set_case_analysis -name "icg_scan_mode" -value 0
+
+reset -name rst_clk_n -async -value 0
+
+sdc_data -file ./sdc/clock_switch_ICG.sdc
+
+quasi_static -name en_800
+quasi_static -name en_500
+quasi_static -name en_1000
