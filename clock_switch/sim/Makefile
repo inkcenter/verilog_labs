@@ -55,7 +55,7 @@ cov:
 	dve -full64 -covdir *vdb &
 
 debug:
-	verdi -f file_list.f -ssf $(DESIGN).fsdb &
+	verdi -f v_list.f -ssf $(DESIGN).fsdb &
 #run_hier:
 #	vcs -R -sverilog -debug_all $(TIME) $(RTL_hier) $(TB_hier) -l run.log
 #compile:
@@ -63,4 +63,4 @@ debug:
 #simulate:
 #	./simv +ntb_random_seed=$(SEED) -l sim.log
 clean:
-	rm -rf csrc* simv* *.daidir *.tmp *.key *.vpd *.vdb *.log DVEfiles coverage *.vdb *hdrs.v core.* $(DESIGN)
+	rm -rf verdiLog novas.* *.fsdb csrc* simv* *.daidir *.tmp *.key *.vpd *.vdb *.log DVEfiles coverage *.vdb *hdrs.v core.* $(DESIGN)

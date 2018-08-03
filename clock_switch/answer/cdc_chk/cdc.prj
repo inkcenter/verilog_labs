@@ -1,18 +1,17 @@
-set_option top soc_top_pad
+set_option top gfree3
 set_option work chip_lib
 #source soc_top_pad_read_lib.tcl
-read_file -type sourcelist file_list.vc
-read_file -type sgdc sgdc/gfree.sgdc
+read_file -type sourcelist  file_list.vc
+read_file -type sgdc  sgdc/gfree3.sgdc
 #set_option libhdlf chip_lib {}
 #set_option hdllibdu yes
 
 set_option prefer_tech_lib yes
 set_option lib chip_lib ./chip_lib
-set_option sort yes
+#set_option sort yes
 set_option projectwdir  ./spyglass_results
 set_option language_mode verilog
 set_option enableSV no
-set_option config .spyglass.setup
 set_option projectcwd .
 set_option mthresh 999999
 set_option enable_gateslib_autocompile yes
@@ -25,10 +24,10 @@ set_option enable_pgnetlist_all_products no
 set_option report_style sort_sevlabel_wt
 set_option block_abstract_directory .
 set_option nosavepolicy {advpolicy}
-set_option disable_html_report {datasheet dashboard html}
 set_option report_ip_waiver yes
 # set_goal_option  addrules W18
 # set_option stop {}
+set_option sdc2sgdc yes
 
 set_parameter sdc_generated_clocks yes
 set_parameter disable_seq_clock_prop yes
@@ -37,26 +36,20 @@ set_parameter enable_delayed_qualifier no
 set_parameter check_port_setup all
 set_parameter dump_sync_info yes
 set_parameter one_cross_per_dest no
-#set_option active_methodology  /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/New_RTL/rtl_handoff/
-#set_option active_methodology  /qixin/proj_users/simba/ahb_soc_2/ahb_soc/impl/impl_env/spyglass_cdc/meth/soc_rtl/ 
-#set_option active_methodology  /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/SoC/soc_rtl/
-set_option active_methodology /home/simba/soc_rtl/
+set_option active_methodology /qixin/eda/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare2.0/block/initial_rtl/
 
-# /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/SoC/soc_rtl/
-#current_methodology /qixin/proj_users/simba/ahb_soc_2/ahb_soc/impl/impl_env/spyglass_cdc/meth/soc_rtl/ 
-# current_methodology  /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/SoC/soc_rtl 
-current_methodology  /home/simba/soc_rtl/
+current_methodology  /qixin/eda/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare2.0/block/initial_rtl/
 
 
 
-# /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/SoC/soc_rtl 
-# read_file -type waiver  /qixin/proj_users/simba/ahb_soc_2/ahb_soc/impl/impl_env/spyglass_lint/untitled.swl
-current_goal cdc_prep/cdc_setup_check -top soc_top_pad
 
-current_goal cdc_exhaustive/cdc_verif_strict -top soc_top_pad
+read_file -type waiver  ./waiver/gfree3.swl
+current_goal cdc/cdc_setup -top gfree3
 
-# current_goal cdc/cdc_verify_struct -top soc_top_pad
-# 
+current_goal cdc/cdc_setup_check -top gfree3 
+
+current_goal cdc/cdc_verify_struct -top  gfree3
+
 # current_goal cdc/cdc_verify -top soc_top_pad
 # 
 # current_goal dft/dft_scan_ready 

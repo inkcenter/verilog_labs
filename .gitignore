@@ -1,6 +1,8 @@
 # IC frontend
 *.log
 command.*
+
+# Library
 *.db
 *.lib
 

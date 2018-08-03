@@ -48,10 +48,10 @@ initial begin
 end
 
 initial begin
-    $vcdpluson();
-    $vcdplusfile("clock_switch_ICG.vpd");
-//    $fsdbDumpfile();
-//    $fsdbDumpvars(0,clock_switch_ICG_tb);
+//    $vcdpluson();
+//    $vcdplusfile("clock_switch_ICG.vpd");
+    $fsdbDumpfile("clock_switch_ICG.fsdb");
+    $fsdbDumpvars(0,clock_switch_ICG_tb);
 end
 
 clock_switch_ICG 

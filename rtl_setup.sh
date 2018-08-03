@@ -54,9 +54,9 @@ if [ ! -d ${design_dir} ]; then
   \cp -rf $ori_sim_make $sim_dir
   \cp -rf $sim_time     $tb_dir
 
-  touch ${rtl_dir}/${design}.v ${tb_dir}/${design}_tb.v
+  touch ${rtl_dir}/${design}.v ${tb_dir}/${design}_tb.sv ${sim_file}
 
-  sed -i "s/${ori_design}/${design}/g" $sim_file $syn_scr #$sim_make
+  sed -i "s/${ori_design}/${design}/g" $sim_make $syn_scr #$sim_file
 
 else 
   echo "${design} exists, try another one"
