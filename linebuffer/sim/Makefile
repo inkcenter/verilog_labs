@@ -12,15 +12,15 @@ VPD_NAME = +vpdfile+$(DESIGN).vpd
 # Compile command
 VCS = vcs +v2k -override_timescale=1ns/100ps           \
       -full64                                          \
-			-fsdb                                            \
-      -debug_all   		                                 \
+	  -fsdb                                            \
+      -debug_all   		                               \
       -sverilog                                        \
       +nospecify                                       \
       +vcs+flush+all                                   \
       $(CM)                                            \
       $(CM_NAME)                                       \
       $(CM_DIR)                                        \
-      $(ALL_DEFINE) 			                             \
+      $(ALL_DEFINE) 			                       \
       $(VPD_NAME)                                      \
       -o  $(DESIGN)                                    \
       -l  compile.log
@@ -31,6 +31,8 @@ SIM = ./$(DESIGN)                \
       $(VPD_NAME)                \
       $(ALL_DEFINE)              \
       -l $(DESIGN).log
+
+all_dbg: clean run debug
 
 run: com sim
 
@@ -50,7 +52,11 @@ cov:
 	dve -full64 -covdir *vdb &
 
 debug:
-	verdi -f v_list.f -ssf $(DESIGN).fsdb &
+	verdi \
+	-sv \
+	-f v_list.f \
+	-nologo \
+	-ssf $(DESIGN).fsdb &
 
 clean:
 	rm -rf verdiLog novas.* *.fsdb csrc* simv* *.daidir *.tmp *.key *.vpd *.vdb *.log DVEfiles coverage *.vdb *hdrs.v core.* $(DESIGN)

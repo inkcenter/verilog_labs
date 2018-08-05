@@ -6,7 +6,7 @@ logic [DATA_WIDTH-1:0] data_in;
 logic                  out_valid, in_valid;
 logic                  clk, rst_n;
 
-always #5 clk = ~clk;
+always #10 clk = ~clk;
 
 integer i,j;
 initial begin
@@ -16,11 +16,12 @@ initial begin
   data_in  = 0;
   #100
   rst_n = 1;
+  in_valid = 1;
+  #10
   forever begin
-    in_valid = 1'b1;
     for (i=0;i<3;i=i+1) begin
       for (j=0;j<100;j=j+1) begin
-        data_in = i*128 + j;
+        #1 data_in = i*128 + j;
         @(posedge clk);
       end
     end

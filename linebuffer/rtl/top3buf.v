@@ -11,11 +11,33 @@ module top3buf
 );
 
 wire [DATA_WIDTH-1:0] data_buf_0, data_buf_1;
-assign data_out_2 = data_in;
-assign data_out_1 = data_buf_1;
-assign data_out_0 = data_buf_0;
 wire out_valid_0, out_valid_1;
-assign out_valid = out_valid_0;
+
+
+
+//calibrate
+reg [DATA_WIDTH-1:0] out_valid_reg;                  // 1 cycle
+reg [DATA_WIDTH-1:0] data_out_1_reg;                 // 1 cycle
+reg [DATA_WIDTH-1:0] data_out_2_tmp, data_out_2_reg; // 2 cycle
+always @ (posedge clk) begin
+    if (!rst_n) begin
+        out_valid_reg  <= #1 0;
+        data_out_1_reg <= #1 0;
+        data_out_2_tmp <= #1 0;
+        data_out_2_reg <= #1 0;
+    end else begin
+        out_valid_reg  <= #1 out_valid_0;
+        data_out_1_reg <= #1 data_buf_1;
+        data_out_2_tmp <= #1 data_in;
+        data_out_2_reg <= #1 data_out_2_tmp;
+    end
+end
+assign out_valid  = out_valid_reg;
+assign data_out_2 = data_out_2_reg;
+assign data_out_1 = data_out_1_reg;
+assign data_out_0 = data_buf_0;
+
+
 
 linebuffer #( .ADDR_WIDTH(ADDR_WIDTH),
               .DATA_WIDTH(DATA_WIDTH),

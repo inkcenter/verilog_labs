@@ -17,16 +17,17 @@ always @ (posedge clk or rst_n) begin
   if (!rst_n) begin: RESET_RAM
     integer i;
     for (i=0;i<LENGTH;i=i+1) begin
-      memory[i] <= 0;
+      memory[i] <= #1 0;
     end
-    data_out_reg <= 0;
+    data_out_reg <= #1 0;
   end else begin
     if (w_en) begin
-      memory[addr] <= data_in;
+      memory[addr] <= #1 data_in;
     end else begin
-      data_out_reg <= memory[addr];
+      data_out_reg <= #1 memory[addr];
     end
   end
 end
+//assign data_out = (!w_en) ? memory[addr] : 0;
 
 endmodule
