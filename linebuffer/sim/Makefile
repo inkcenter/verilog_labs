@@ -2,6 +2,7 @@
 
 DESIGN = top3buf
 FILE = v_list.f
+#FILE = v_ori_list.f
 ALL_DEFINE = +define+DUMP_VPD
 # Code coverage command 
 CM = -cm line+cond+fsm+branch+tgl

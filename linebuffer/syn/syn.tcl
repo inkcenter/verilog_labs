@@ -4,8 +4,10 @@ set target_library sc_max.db
 set link_library "* $target_library"
 
 set myClk    clk
-set myDesign linebuffer
-set myFiles  [list ./../rtl/${myDesign}.v]
+set myDesign top3buf
+set myFiles  [ list ./../rtl/${myDesign}.v \
+                    ./../rtl/linebuffer.v \
+                    ./../rtl/RAM_SINGLE_rst.v ]
 
 define_design_lib WORK -path ./WORK
 
@@ -18,7 +20,7 @@ elaborate -work WORK $myDesign
 
 source ./syn.sdc
 
-ungroup -all -flatten
+#ungroup -all -flatten
 
 compile -map_effort high
 

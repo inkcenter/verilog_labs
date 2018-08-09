@@ -13,18 +13,18 @@ reg [DATA_WIDTH-1:0] memory [LENGTH-1:0];
 reg [DATA_WIDTH-1:0] data_out_reg;
 assign data_out = data_out_reg;
 
-always @ (posedge clk or negedge rst_n) begin
+always @ (posedge clk or rst_n) begin
   if (!rst_n) begin: RESET_RAM
     integer i;
     for (i=0;i<LENGTH;i=i+1) begin
-      memory[i] <= 0;
+      memory[i] <= #1 0;
     end
-    data_out_reg <= 0;
+    data_out_reg <= #1 0;
   end else begin
     if (w_en) begin
-      memory[addr] <= data_in;
+      memory[addr] <= #1 data_in;
     end else begin
-      data_out_reg <= memory[addr];
+      data_out_reg <= #1 memory[addr];
     end
   end
 end

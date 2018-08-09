@@ -10,17 +10,25 @@ module linebuffer
 
 reg [ADDR_WIDTH-1:0] addr_cnt;
 //control logic
+reg in_valid_reg;
+always @ (posedge clk) begin
+    if (!rst_n) begin
+        in_valid_reg <= #1 0;
+    end else begin
+        in_valid_reg <= #1 in_valid;
+    end
+end
 wire full = (addr_cnt == LENGTH-1);
-wire read = in_valid && full;
+wire read = in_valid_reg && full;
 //address
 always @ (posedge clk) begin
   if (!rst_n) begin
-      addr_cnt <= 0;
-  end else if (in_valid) begin
+      addr_cnt <= #1 0;
+  end else if (in_valid_reg) begin
     if (!full) begin
-      addr_cnt <= addr_cnt + 1;
+      addr_cnt <= #1 addr_cnt + 1;
     end else begin
-      addr_cnt <= 0;
+      addr_cnt <= #1 0;
     end
   end
 end
@@ -29,31 +37,28 @@ reg  w_en_1, w_en_reg;
 wire w_en_2 = ~w_en_1;
 always @ (posedge clk) begin
     if (!rst_n) begin
-        w_en_1 <= 1;
+        w_en_1 <= #1 1;
     end else begin
         if (read) begin
-            w_en_1 <= ~w_en_1;
+            w_en_1 <= #1 ~w_en_1;
         end
-        w_en_reg <= w_en_1;
+        w_en_reg <= #1 w_en_1;
     end
 end
 //data output select, additional 1 clock cycle
 wire [DATA_WIDTH-1:0] data_ram_1;
 wire [DATA_WIDTH-1:0] data_ram_2;
 assign data_out = (!w_en_reg) ? data_ram_1 : data_ram_2;
-//output valid, additional 1 clock cycle for RAM
-reg out_valid_reg, out_valid_tmp;
+
+//output valid
+reg out_valid_reg;
 assign out_valid = out_valid_reg;
 always @ (posedge clk) begin
-    if (!rst_n) begin
-        out_valid_tmp <= 0;
-        out_valid_reg <= 0;
-    end else begin
-        if (full) begin
-            out_valid_tmp <= 1;
-        end
-        out_valid_reg <= out_valid_tmp;
-    end
+  if (!rst_n) begin
+    out_valid_reg <= #1 0;
+  end else if (full) begin
+    out_valid_reg <= #1 1;
+  end
 end
 //RAM instance
 RAM_SINGLE_rst #( .ADDR_WIDTH(ADDR_WIDTH),

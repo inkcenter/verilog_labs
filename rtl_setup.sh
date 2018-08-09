@@ -4,8 +4,8 @@ source ~/.bashrc
 echo "Enter your design name:"
 read design
 
-ori_dir=/qixin/proj_users/swru/verilog_labs/fifo #to be modified
-ori_design=fifo
+ori_dir=/qixin/proj_users/swru/verilog_labs/linebuffer #to be modified
+ori_design=top3buf
 syn_ori=${ori_dir}/syn
 sim_ori=${ori_dir}/sim
 

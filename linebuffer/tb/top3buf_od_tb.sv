@@ -17,6 +17,7 @@ initial begin
   #100
   rst_n = 1;
   in_valid = 1;
+  #10
   forever begin
     for (i=0;i<3;i=i+1) begin
       for (j=0;j<100;j=j+1) begin
