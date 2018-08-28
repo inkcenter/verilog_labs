@@ -1,7 +1,0 @@
-define NCSIMRC	( /qixin/eda/cadence/INCISIV122/tools/inca/files/ncsimrc, ~/.ncsimrc )
-include ./hdlrun.var
-define SNAPSHOT worklib.ahb_clac_top_tb:v
-DEFINE RUNMODEDEFAULT 1
-DEFINE LIB_MAP ( + => worklib )
-define ELAB_SNAPSHOT
-define SNAPSHOT worklib.ahb_clac_top_tb:v

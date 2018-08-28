@@ -1,1 +1,0 @@
-export LD_LIBRARY_PATH=/qixin/eda/synopsys/verdi/2014.03/share/PLI/VCS/LINUX:$LD_LIBRARY_PATH
