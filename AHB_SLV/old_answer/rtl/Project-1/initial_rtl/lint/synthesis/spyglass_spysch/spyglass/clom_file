@@ -1,0 +1,102 @@
+##This file is genrated to have command line decompiled Info even in SDE
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 37
+--template_info initial_rtl/lint/synthesis CmdFile N.A.                           0
+-64bit          <ON>              CmdLine -                              -
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./Project-1//.SG_SaveRestoreDB CmdFile N.A.                           0
+-enable_save_restore <ON>              CmdFile N.A.                           0
+-enable_save_restore_builtin yes               CmdFile ./Project-1/initial_rtl/lint/synthesis/current.spp 56
+-f              ./Project-1/initial_rtl/lint/synthesis/current.spp CmdLine -                              -
+-ignorerules    CMD_define_severity02 CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 54
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-ispy           <ON>              CmdLine -                              -
+-lib            WORK=>./Project-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 49
+-overloadrules  STARC05-2.3.1.6+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 86
+                STARC02-2.5.1.7+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 74
+                STARC02-2.5.1.9+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 80
+-policy         latch             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+                openmore          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+                starc2002         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+                starc2005         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+                starc             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+                spyglass          CmdFile N.A.                           0
+                lint              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+                morelint          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-projectwdir    ./Project-1       CmdFile ./Project-1/initial_rtl/lint/synthesis/current.spp 61
+-report         runsummary        CmdFile ./Project-1/initial_rtl/lint/synthesis/current.spp 60
+                moresimple        CmdFile ./Project-1/initial_rtl/lint/synthesis/current.spp 60
+-rules          W450L             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 127
+                InferLatch        CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 63
+                STARC02-2.5.1.7   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 73
+                STARC02-2.5.1.9   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 79
+                STARC05-2.3.1.6   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 85
+                W442a             CmdFile N.A.                           0
+                W442b             CmdFile N.A.                           0
+                W442c             CmdFile N.A.                           0
+                W442f             CmdFile N.A.                           0
+                badimplicitSM1    CmdFile N.A.                           0
+                badimplicitSM2    CmdFile N.A.                           0
+                badimplicitSM4    CmdFile N.A.                           0
+                bothedges         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 194
+                W496a             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 152
+                W496b             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 157
+                W66               CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 162
+                W69               CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 167
+                W116              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 92
+                W215              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 97
+                W216              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 102
+                W218              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 107
+                W362              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 116
+                W422              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 122
+                W480              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 137
+                W481a             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 142
+                W481b             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 147
+                BlockHeader       CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 58
+                W71               CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 172
+                W293              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 112
+                W467              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 132
+                W505              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 177
+                NoAssignX-ML      CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 68
+-sortmethod     jaguar            Config  $SPYGLASS_HOME/.spyglass.setup 27
+-templatedir    /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/New_RTL CmdFile N.A.                           0
+-vdbfile        spyglass.vdb      CmdFile N.A.                           0
+-wdir           ./Project-1/initial_rtl/lint/synthesis CmdFile N.A.                           0
+-work           WORK              CmdLine -                              -
+<design_files>  ahb_clac_top.v    CmdFile N.A.                           0
+                ahb_slave.v       CmdFile N.A.                           0
+                clac.v            CmdFile N.A.                           0
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+-do_not_run_W71 CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 167
+VALUE -- yes
+(KNOWN_PARAM)
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        4.4.0           $SPYGLASS_HOME/policies/spyglass
+latch           4.4.0           $SPYGLASS_HOME/policies/latch
+openmore        4.4.0           $SPYGLASS_HOME/policies/openmore
+starc2002       4.4.0           $SPYGLASS_HOME/policies/starc2002
+starc2005       4.4.0           $SPYGLASS_HOME/policies/starc2005
+starc           4.4.0           $SPYGLASS_HOME/policies/starc
+lint            4.4.0           $SPYGLASS_HOME/policies/lint
+morelint        4.4.0           $SPYGLASS_HOME/policies/morelint
+
+

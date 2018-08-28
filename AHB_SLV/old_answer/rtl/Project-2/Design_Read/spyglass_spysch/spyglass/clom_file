@@ -1,0 +1,43 @@
+##This file is genrated to have command line decompiled Info even in SDE
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 37
+-64bit          <ON>              CmdLine -                              -
+-batch          <ON>              CmdLine -                              -
+-f              ./Project-2/Design_Read/current.spp CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-ispy           <ON>              CmdLine -                              -
+-lib            WORK=>./Project-2/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdFile N.A.                           0
+-policy         spyglass          CmdFile N.A.                           0
+-projectwdir    ./Project-2       CmdFile ./Project-2/Design_Read/current.spp 10
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-sortmethod     jaguar            Config  $SPYGLASS_HOME/.spyglass.setup 27
+-vdbfile        spyglass.vdb      CmdFile N.A.                           0
+-wdir           ./Project-2/Design_Read CmdFile N.A.                           0
+-work           WORK              CmdLine -                              -
+<design_files>  ahb_clac_top.v    CmdFile N.A.                           0
+                ahb_slave.v       CmdFile N.A.                           0
+                clac.v            CmdFile N.A.                           0
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        4.4.0           $SPYGLASS_HOME/policies/spyglass
+
+

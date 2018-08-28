@@ -1,0 +1,61 @@
+//SpyGlass: 4.4.0
+-overloadrules STARC05-2.3.1.6+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 86
+-overloadrules STARC02-2.5.1.7+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 74
+-overloadrules STARC02-2.5.1.9+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 80
+-templatedir $SPYGLASS_HOME/GuideWare/New_RTL // spg_backref : N.A. 0
+--template_info 'initial_rtl/lint/synthesis' // spg_backref : N.A. 0
+-mixed // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 49
+ahb_clac_top.v  // spg_backref : N.A. 0
+ahb_slave.v  // spg_backref : N.A. 0
+clac.v  // spg_backref : N.A. 0
+-policies=latch  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-policies=openmore  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-policies=starc2002  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-policies=starc2005  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-policies=starc  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-policies=spyglass  // spg_backref : N.A. 0
+-policies=lint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-policies=morelint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 50
+-do_not_run_W71='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 167
+-rules W450L  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 127
+-rules InferLatch  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 63
+-rules STARC02-2.5.1.7  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 73
+-rules STARC02-2.5.1.9  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 79
+-rules STARC05-2.3.1.6  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 85
+-rules W442a  // spg_backref : N.A. 0
+-rules W442b  // spg_backref : N.A. 0
+-rules W442c  // spg_backref : N.A. 0
+-rules W442f  // spg_backref : N.A. 0
+-rules badimplicitSM1  // spg_backref : N.A. 0
+-rules badimplicitSM2  // spg_backref : N.A. 0
+-rules badimplicitSM4  // spg_backref : N.A. 0
+-rules bothedges  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 194
+-rules W496a  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 152
+-rules W496b  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 157
+-rules W66  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 162
+-rules W69  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 167
+-rules W116  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 92
+-rules W215  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 97
+-rules W216  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 102
+-rules W218  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 107
+-rules W362  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 116
+-rules W422  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 122
+-rules W480  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 137
+-rules W481a  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 142
+-rules W481b  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 147
+-rules BlockHeader  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 58
+-rules W71  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 172
+-rules W293  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 112
+-rules W467  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 132
+-rules W505  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 177
+-rules NoAssignX-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 68
+-ignorerules CMD_define_severity02  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 54
+-dbdir ./Project-1//.SG_SaveRestoreDB  // spg_backref : N.A. 0
+-enable_save_restore  // spg_backref : N.A. 0
+
+-enable_save_restore_builtin=yes
+-dump_precompile_builtin=yes
+-vdbfile spyglass.vdb  // spg_backref : N.A. 0
+-wdir ./Project-1/initial_rtl/lint/synthesis  // spg_backref : N.A. 0
+-report=runsummary,moresimple
+-projectwdir=./Project-1

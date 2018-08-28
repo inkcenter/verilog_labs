@@ -1,0 +1,62 @@
+
+param@@-clocks_pair@@ @@
+param@@-synchronize_cells@@ @@
+param@@-synchronize_data_cells@@ @@
+param@@-num_flops@@2@@
+param@@-clock_fanout_max@@24@@
+param@@-CTS_placeholder_cells@@ @@
+param@@-reset_fanout_max@@24@@
+param@@-reset_placeholder_cells@@ @@
+param@@-clock_edge@@positive@@
+param@@-use_inferred_clocks@@no@@
+param@@-use_inferred_resets@@no@@
+param@@-one_cross_per_dest@@yes@@
+param@@-check_bus_bit_convergence@@no@@
+param@@-no_convergence_check@@ @@
+param@@-convergence_stop_at_mux@@no@@
+param@@-conv03_report_seq_conv@@no@@
+param@@-reconvergence_stages@@0@@
+param@@-enable_handshake@@no@@
+param@@-distributed_fifo@@no@@
+param@@-allow_half_sync@@yes@@
+param@@-ignore_bus_clocks@@1024@@
+param@@-unexpected_ckcells_file@@ @@
+param@@-expected_ckcells_file@@ @@
+param@@-delay_check_clk_list@@all@@
+param@@-run_cells_in_cktree_rules@@no@@
+param@@-same_threshold_all_cktree@@no@@
+param@@-enable_sync_cell@@ @@
+param@@-dump_sync_info@@no@@
+param@@-dump_inst_type@@all@@
+param@@-sync_reset@@no@@
+param@@-cdc_reduce_pessimism@@mbit_macro,no_convergence_at_syncreset,no_convergence_at_enable@@
+param@@-clock_reduce_pessimism@@latch_en@@
+param@@-allow_convergence_clocks@@no@@
+param@@-ignore_nets_clock_path_file_name@@./ignore_nets_clock_path.txt@@
+param@@-ignore_race_thru_latch@@no@@
+param@@-strict_sync_check@@0@@
+param@@-ignore_num_rtl_buf_invs@@many@@
+param@@-allow_combo_logic@@no@@
+param@@-enable_mux_dest_domain@@ @@
+param@@-enable_sync@@yes@@
+param@@-clock_ripple_depth@@2@@
+param@@-enable_lock_sync@@no@@
+param@@-enable_mux_sync@@recirculation@@
+param@@-ignore_latches@@yes@@
+param@@-strict_double_flop@@no@@
+param@@-reset_synchronize_cells@@ @@
+param@@-filter_named_clocks@@rst,reset,scan,set@@
+param@@-filter_named_resets@@clk,clock,scan@@
+param@@-enable_fifo@@no@@
+param@@-unex_reset_gate_list@@ @@
+param@@-report_inst_for_netlist@@no@@
+param@@-mux_search_depth@@6@@
+param@@-enable_clock_gate_sync@@yes@@
+param@@-reset_sync_check@@strict@@
+param@@-report_indirect_port_clock@@no@@
+param@@-async_reset_usage@@data@@
+param@@-generate_cross_file@@no@@
+param@@-disable_seq_clock_prop@@no@@
+param@@-glitch_check_type@@sync_control@@
+param@@-reset_num_flops@@2@@
+param@@-sel_case_analysis_mode@@sequential@@

@@ -1,0 +1,19 @@
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "Info_Case_Analysis" 4
+"TEMPLATE"
+["initial_rtl/lint/connectivity"]
+"RULE_ORDER"
+[1]
+"RULEGROUP"
+["clock-reset/INFORMATION"]
+"SPG_RULETAG_SCH_INFO_RULE"
+"Show Info Case Analysis Data"

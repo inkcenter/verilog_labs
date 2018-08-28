@@ -1,0 +1,109 @@
+##This file is genrated to have command line decompiled Info even in SDE
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 37
+--template_info initial_rtl/lint/simulation CmdFile N.A.                           0
+-64bit          <ON>              CmdLine -                              -
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./Project-1//.SG_SaveRestoreDB CmdFile N.A.                           0
+-enable_save_restore <ON>              CmdFile N.A.                           0
+-enable_save_restore_builtin yes               CmdFile ./Project-1/initial_rtl/lint/simulation/current.spp 56
+-f              ./Project-1/initial_rtl/lint/simulation/current.spp CmdLine -                              -
+-ignorerules    CMD_define_severity02 CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 71
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-ispy           <ON>              CmdLine -                              -
+-lib            WORK=>./Project-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 66
+-overloadrules  STARC-2.10.6.1+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 82
+                STARC05-2.1.6.5+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 94
+                STARC05-2.1.5.3+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 88
+                STARC05-2.3.4.1v+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 285
+                STARC05-2.3.1.5b+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 106
+                STARC05-2.2.3.3+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 100
+-policy         simulation        CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 67
+                starc             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 67
+                starc2005         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 67
+                spyglass          CmdFile N.A.                           0
+                lint              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 67
+                morelint          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 67
+-projectwdir    ./Project-1       CmdFile ./Project-1/initial_rtl/lint/simulation/current.spp 61
+-report         runsummary        CmdFile ./Project-1/initial_rtl/lint/simulation/current.spp 60
+                moresimple        CmdFile ./Project-1/initial_rtl/lint/simulation/current.spp 60
+-rules          sim_race02        CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 207
+                STARC-2.10.6.1    CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 81
+                STARC05-2.3.4.1v  CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 284
+                STARC05-2.1.5.3   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 87
+                STARC05-2.1.6.5   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 93
+                STARC05-2.2.3.3   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 99
+                STARC05-2.3.1.5b  CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 105
+                W122              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 112
+                W19               CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 117
+                W263              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 122
+                W289              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 127
+                W316              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 137
+                W337              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 147
+                W352              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 152
+                W426              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 187
+                W486              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 192
+                W499              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 197
+                W502              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 202
+                W336              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 142
+                W414              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 162
+                W292              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 132
+                W398              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 157
+                W421              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 177
+                W424              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 182
+                W415              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 167
+                CheckDelayTimescale-ML CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 76
+                NoXInCase-ML      CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 280
+-sortmethod     jaguar            Config  $SPYGLASS_HOME/.spyglass.setup 27
+-templatedir    /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/New_RTL CmdFile N.A.                           0
+-vdbfile        spyglass.vdb      CmdFile N.A.                           0
+-wdir           ./Project-1/initial_rtl/lint/simulation CmdFile N.A.                           0
+-work           WORK              CmdLine -                              -
+<design_files>  ahb_clac_top.v    CmdFile N.A.                           0
+                ahb_slave.v       CmdFile N.A.                           0
+                clac.v            CmdFile N.A.                           0
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+-assume_driver_load CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 167
+VALUE -- yes
+(KNOWN_PARAM)
+-checkconstassign CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 167
+VALUE -- yes
+(KNOWN_PARAM)
+-strict         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 63
+VALUE -- W342,W343
+(KNOWN_PARAM)
+-treat_latch_as_combinational CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 142
+VALUE -- yes
+(KNOWN_PARAM)
+-verilint_compat CmdFile N.A.                           0
+VALUE -- yes
+(KNOWN_PARAM)
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        4.4.0           $SPYGLASS_HOME/policies/spyglass
+simulation      4.4.0           $SPYGLASS_HOME/policies/simulation
+starc           4.4.0           $SPYGLASS_HOME/policies/starc
+starc2005       4.4.0           $SPYGLASS_HOME/policies/starc2005
+lint            4.4.0           $SPYGLASS_HOME/policies/lint
+morelint        4.4.0           $SPYGLASS_HOME/policies/morelint
+starc2002       4.4.0           $SPYGLASS_HOME/policies/starc2002
+
+

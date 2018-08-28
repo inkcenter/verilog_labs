@@ -1,0 +1,13 @@
+Date Created     : 22-04-2018 16:59:39
+SpyGlass Version : 4.4.0
+Project Name     : Project-1
+Goal Name        : initial_rtl/lint/simulation
+Top              : 
+
+Message Summary
+Severity   Non-Waived  Waived
+FATAL           0         0
+ERROR           0         0
+WARNING         5         0
+INFO            2         0
+

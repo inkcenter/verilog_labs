@@ -1,0 +1,6 @@
+module_start####clac
+module_end####
+module_start####ahb_slave_clac
+module_end####
+module_start####ahb_clac_top
+module_end####

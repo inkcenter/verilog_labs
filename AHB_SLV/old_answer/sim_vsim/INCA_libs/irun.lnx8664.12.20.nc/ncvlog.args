@@ -1,0 +1,22 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.12.20.nc
+-RUNMODE
+../rtl/ahb_slave.v
+../rtl/clac.v
+../rtl/ahb_clac_top.v
+../tb/ahb_clac_tb_2.v
+-DEFINE
+SHM_ON
+-CDSLIB
+./INCA_libs/irun.lnx8664.12.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.12.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx8664.12.20.nc/xllibs
+-ALLOWUNBOUND

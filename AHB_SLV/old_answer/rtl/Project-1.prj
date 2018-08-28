@@ -1,0 +1,25 @@
+#!SPYGLASS_PROJECT_FILE
+#!VERSION 3.0
+#  -------------------------------------------------------------------
+#  Copyright Atrenta, Inc 2009
+#  Last Updated By: Atrenta Console 4.4.0
+#  Last Updated On Sun Apr 22 17:04:06 2018
+#
+#  -------------------------------------------------------------------
+
+##Data Import Section
+
+read_file -type verilog ahb_clac_top.v
+read_file -type verilog ahb_slave.v
+read_file -type verilog clac.v
+
+##Common Options Section
+
+set_option language_mode mixed
+set_option projectwdir .
+set_option projectcwd /qixin/proj_users/cary/training/soc_training_2018_0415/design_labs/ahb_slave/rtl
+set_option active_methodology /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/New_RTL
+
+
+##Goal Setup Section
+

@@ -1,0 +1,231 @@
+
+INFO:    SpyGlass will run template(s)/goal(s) 'initial_rtl/lint/synthesis'.
+
+SpyGlass(R) Predictive Analyzer - Version 4.4.0
+Last compiled on Jul 27 2010
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Atrenta Inc. is prohibited.
+Technical support: email support@atrenta.com or dial 1-866-ATRENTA.
+
+INFO [317]    '-64bit' command-line option is redundant as default run mode is set to 64bit on 64bit machine.
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/spyglass)
+Loading latch (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/latch)
+Loading openmore (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/openmore)
+Loading starc2002 (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/starc2002)
+Loading starc2005 (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/starc2005)
+Loading starc (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/starc)
+Loading lint (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/lint)
+Loading morelint (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/morelint)
+
+WARNING [238]    Restoring design database is disabled as following rules need re-synthesis:
+                 W450L
+                 STARC02-2.5.1.7
+                 STARC02-2.5.1.9
+
+INFO [76]    Using `./Project-1/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 5 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 6 of total 128) .... done (Time = 0s, Memory = 0.9K)
+Checking Rule SGDC_clock05 (Rule 7 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 8 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 9 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 10 of total 128) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_require_path03 (Rule 11 of total 128) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_require_value03 (Rule 12 of total 128) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_reset02 (Rule 13 of total 128) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_reset03 (Rule 14 of total 128) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_voltagedomain05 (Rule 15 of total 128) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_voltagedomain06 (Rule 16 of total 128) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_voltagedomain07 (Rule 17 of total 128) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 18 of total 128) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_supply01 (Rule 19 of total 128) .... done (Time = 0s, Memory = 4.5K)
+Checking Rule SGDC_waive01 (Rule 20 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 21 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 22 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 23 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 24 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 25 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 26 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 27 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 28 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 29 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 30 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 31 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 32 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 33 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 34 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 35 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 36 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 37 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 38 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 39 of total 128) .... done (Time = 0s, Memory = 2.7K)
+Checking Rule SGDC_libgroup01 (Rule 40 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 41 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 42 of total 128) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_power_data01 (Rule 43 of total 128) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule sdc_init_rule (Rule 44 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule CMD_ignorelibs01 (Rule 45 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 46 of total 128) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule W442a (Rule 47 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule W442b (Rule 48 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule W442c (Rule 49 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule W442f (Rule 50 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule badimplicitSM1 (Rule 51 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule badimplicitSM2 (Rule 52 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule badimplicitSM4 (Rule 53 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule bothedges (Rule 54 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule BlockHeader (Rule 55 of total 128) .... done (Time = 0s, Memory = 0.1K)
+INFO: Higher Capacity Mode enabled
+Checking Rule ReportStopSummary (Rule 56 of total 128) .... done (Time = 0s, Memory = 0.0K)
+ Analyzing source file "ahb_clac_top.v" ....
+ Analyzing source file "ahb_slave.v" ....
+ Analyzing source file "clac.v" ....
+ Elaborating Top Verilog Design Unit 'ahb_clac_top' .....
+ done
+Checking Rule ElabSummary (Rule 57 of total 128) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule ReportCheckDataSummary (Rule 58 of total 128) .... done (Time = 0s, Memory = 0.1K)
+ Reading SGDC file "./Project-1/initial_rtl/lint/synthesis/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating SGDC file "./Project-1/initial_rtl/lint/synthesis/spyglass_spysch/constraint/pragma2Constraint.sgdc" from pragmas in HDL source files ....
+ Reading SGDC file "./Project-1/initial_rtl/lint/synthesis/spyglass_spysch/constraint/pragma2Constraint.sgdc" ...
+ Reading included SGDC file "./Project-1/initial_rtl/lint/synthesis/spyglass_spysch/constraint/pragma2Constraint_varfile.sgdc" ....
+Checking Rule DetectTopDesignUnits (Rule 59 of total 128)
+ Detected 1 top level design units:
+     ahb_clac_top
+ .... done (Time = 0s, Memory = 0.3K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed.
+Checking Rule SGDC_testmode03 (Rule 60 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 61 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 62 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule HdlLibDuCheck (Rule 63 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule RtlDesignInfo (Rule 64 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W505 (Rule 65 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC05-AlwaysParamSetup (Rule 66 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC05-ProcessParamSetup (Rule 67 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 68 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 69 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule SGDC_waive26 (Rule 70 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive27 (Rule 71 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 72 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule Prereqs_RegOutputs (Rule 73 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC05-2.3.1.6 (Rule 74 of total 128) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule W496a (Rule 75 of total 128) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule W496b (Rule 76 of total 128) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule W215 (Rule 77 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W216 (Rule 78 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W422 (Rule 79 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W480 (Rule 80 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W481a (Rule 81 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W481b (Rule 82 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W422 (Rule 83 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule W71 (Rule 84 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule W293 (Rule 85 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule W467 (Rule 86 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule Prereqs_RegInputOutputs (Rule 87 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit ahb_clac_top
+    Checking Rule W66 (Rule 88 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W69 (Rule 89 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W116 (Rule 90 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W218 (Rule 91 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W362 (Rule 92 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W116 (Rule 93 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W71 (Rule 94 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W293 (Rule 95 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W467 (Rule 96 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W505 (Rule 97 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule Prereqs_Usage (Rule 98 of total 128) .... done (Time = 0s, Memory = 0.0K)
+    Checking Rule NoAssignX-ML (Rule 99 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking ELABDU Rules for designUnit ahb_slave_clac
+    Checking Rule W66 (Rule 88 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W69 (Rule 89 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W116 (Rule 90 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W218 (Rule 91 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W362 (Rule 92 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W116 (Rule 93 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W71 (Rule 94 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W293 (Rule 95 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W467 (Rule 96 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W505 (Rule 97 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule Prereqs_Usage (Rule 98 of total 128) .... done (Time = 0s, Memory = 0.0K)
+    Checking Rule NoAssignX-ML (Rule 99 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking ELABDU Rules for designUnit clac
+    Checking Rule W66 (Rule 88 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W69 (Rule 89 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W116 (Rule 90 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W218 (Rule 91 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W362 (Rule 92 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W116 (Rule 93 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W71 (Rule 94 of total 128) .... done (Time = 0s, Memory = 0.2K)
+    Checking Rule W293 (Rule 95 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W467 (Rule 96 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule W505 (Rule 97 of total 128) .... done (Time = 0s, Memory = 0.1K)
+    Checking Rule Prereqs_Usage (Rule 98 of total 128) .... done (Time = 0s, Memory = 0.0K)
+    Checking Rule NoAssignX-ML (Rule 99 of total 128) .... done (Time = 0s, Memory = 0.1K)
+ Synthesizing module: clac (elaborated name: clac) ... (Module 1 of total 3)  done 
+Checking Rule W450L for module clac (Rule 100 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule InferLatch for module clac (Rule 101 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC02-2.5.1.7 for module clac (Rule 102 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC02-2.5.1.9 for module clac (Rule 103 of total 128) .... done (Time = 0s, Memory = 0.0K)
+ Synthesizing module: ahb_slave_clac (elaborated name: ahb_slave_clac) ... (Module 2 of total 3)  done 
+Checking Rule W450L for module ahb_slave_clac (Rule 100 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule InferLatch for module ahb_slave_clac (Rule 101 of total 128) .... done (Time = 0s, Memory = 0.9K)
+Checking Rule STARC02-2.5.1.7 for module ahb_slave_clac (Rule 102 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC02-2.5.1.9 for module ahb_slave_clac (Rule 103 of total 128) .... done (Time = 0s, Memory = 0.0K)
+ Synthesizing module: ahb_clac_top (elaborated name: ahb_clac_top) ... (Module 3 of total 3)  done 
+Checking Rule W450L for module ahb_clac_top (Rule 100 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule InferLatch for module ahb_clac_top (Rule 101 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC02-2.5.1.7 for module ahb_clac_top (Rule 102 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule STARC02-2.5.1.9 for module ahb_clac_top (Rule 103 of total 128) .... done (Time = 0s, Memory = 0.0K)
+ Synthesis completed.
+Checking Rule InferBlackBox (Rule 104 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive37 (Rule 105 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 106 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 107 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 108 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 109 of total 128) .... done (Time = 0s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed.
+Checking Rule SGDC_testmode03 (Rule 60 of total 128) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule AnalyzeBBox (Rule 110 of total 128) .... done (Time = 0s, Memory = 0.3K)
+Checking Rule ReportCheckDataSummary (Rule 58 of total 128) .... done (Time = 0s, Memory = 0.1K)
+
+SpyGlass Rule Checking Complete.
+
+Generating runsummary report from './Project-1/initial_rtl/lint/synthesis/spyglass.vdb' ....
+
+Generating moresimple report from './Project-1/initial_rtl/lint/synthesis/spyglass.vdb' to './Project-1/initial_rtl/lint/synthesis/spyglass_reports/moresimple.rpt' ....
+
+Generating no_msg_reporting_rules report from './Project-1/initial_rtl/lint/synthesis/spyglass.vdb' to './Project-1/initial_rtl/lint/synthesis/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Policy specific data (reports) are present in the directory './Project-1/initial_rtl/lint/synthesis/spyglass_reports'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Template/Goal Run  :      initial_rtl/lint/synthesis
+                             (Rules from above template(s) have been changed)
+   Command-line read  :      0 error,      0 warning,      0 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         ahb_clac_top   (file: ahb_clac_top.v)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy lint        :      0 error,      1 warning,      0 information message 
+   Policy openmore    :      0 error,      1 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      2 warnings,     2 information messages
+
+  Total Number of Generated Messages     :         4 (0 error, 2 warnings, 2 Infos)
+  Number of Reported Messages            :         4 (0 error, 2 warnings, 2 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+SpyGlass Exit Code 0 (Rule-checking completed with warnings)

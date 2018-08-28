@@ -1,0 +1,83 @@
+##This file is genrated to have command line decompiled Info even in SDE
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 37
+--template_info initial_rtl/lint/structure CmdFile N.A.                           0
+-64bit          <ON>              CmdLine -                              -
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./Project-1//.SG_SaveRestoreDB CmdFile N.A.                           0
+-enable_save_restore <ON>              CmdFile N.A.                           0
+-enable_save_restore_builtin yes               CmdFile ./Project-1/initial_rtl/lint/structure/current.spp 34
+-f              ./Project-1/initial_rtl/lint/structure/current.spp CmdLine -                              -
+-ignorerules    CMD_define_severity02 CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 60
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-ispy           <ON>              CmdLine -                              -
+-lib            WORK=>./Project-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 55
+-overloadrules  STARC02-2.4.1.5+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 110
+-policy         erc               CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                timing            CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                clock-reset       CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                starc2005         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                openmore          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                starc2002         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                lint              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                latch             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                starc             CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+                spyglass          CmdFile N.A.                           0
+                morelint          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-projectwdir    ./Project-1       CmdFile ./Project-1/initial_rtl/lint/structure/current.spp 39
+-report         runsummary        CmdFile ./Project-1/initial_rtl/lint/structure/current.spp 38
+                moresimple        CmdFile ./Project-1/initial_rtl/lint/structure/current.spp 38
+-rules          FlopClockConstant CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 84
+                FlopSRConst       CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 94
+                FlopEConst        CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 89
+                Info_Case_Analysis CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 64
+                BufClock          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 69
+                CombLoop          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 74
+                STARC02-2.4.1.5   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 109
+                LatchFeedback     CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 99
+                DuplicateCaseLabel-ML CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 79
+-sortmethod     jaguar            Config  $SPYGLASS_HOME/.spyglass.setup 27
+-templatedir    /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/New_RTL CmdFile N.A.                           0
+-vdbfile        spyglass.vdb      CmdFile N.A.                           0
+-wdir           ./Project-1/initial_rtl/lint/structure CmdFile N.A.                           0
+-work           WORK              CmdLine -                              -
+<design_files>  ahb_clac_top.v    CmdFile N.A.                           0
+                ahb_slave.v       CmdFile N.A.                           0
+                clac.v            CmdFile N.A.                           0
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+-report_inferred_cell CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 84
+VALUE -- yes
+(KNOWN_PARAM)
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        4.4.0           $SPYGLASS_HOME/policies/spyglass
+erc             4.4.0           $SPYGLASS_HOME/policies/erc
+timing          4.4.0           $SPYGLASS_HOME/policies/timing
+clock-reset     4.4.0           $SPYGLASS_HOME/policies/clock
+starc2005       4.4.0           $SPYGLASS_HOME/policies/starc2005
+openmore        4.4.0           $SPYGLASS_HOME/policies/openmore
+starc2002       4.4.0           $SPYGLASS_HOME/policies/starc2002
+lint            4.4.0           $SPYGLASS_HOME/policies/lint
+latch           4.4.0           $SPYGLASS_HOME/policies/latch
+starc           4.4.0           $SPYGLASS_HOME/policies/starc
+morelint        4.4.0           $SPYGLASS_HOME/policies/morelint
+
+

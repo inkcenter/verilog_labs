@@ -1,0 +1,80 @@
+##This file is genrated to have command line decompiled Info even in SDE
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 37
+--template_info initial_rtl/lint/connectivity CmdFile N.A.                           0
+-64bit          <ON>              CmdLine -                              -
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./Project-1//.SG_SaveRestoreDB CmdFile N.A.                           0
+-enable_save_restore <ON>              CmdFile N.A.                           0
+-enable_save_restore_builtin yes               CmdFile ./Project-1/initial_rtl/lint/connectivity/current.spp 29
+-f              ./Project-1/initial_rtl/lint/connectivity/current.spp CmdLine -                              -
+-ignorerules    CMD_define_severity02 CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 48
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-ispy           <ON>              CmdLine -                              -
+-lib            WORK=>./Project-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 43
+-overloadrules  STARC05-2.1.3.1+severity=Warning CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 59
+-policy         erc               CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+                lint              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+                morelint          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+                openmore          CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+                starc2005         CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+                clock-reset       CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+                spyglass          CmdFile N.A.                           0
+-projectwdir    ./Project-1       CmdFile ./Project-1/initial_rtl/lint/connectivity/current.spp 34
+-report         runsummary        CmdFile ./Project-1/initial_rtl/lint/connectivity/current.spp 33
+                moresimple        CmdFile ./Project-1/initial_rtl/lint/connectivity/current.spp 33
+-rules          checkPinConnectedToSupply CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 74
+                W110              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 69
+                W123              CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 110
+                UndrivenInTerm-ML CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+                STARC05-2.1.3.1   CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 58
+                Info_Case_Analysis CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 53
+-sortmethod     jaguar            Config  $SPYGLASS_HOME/.spyglass.setup 27
+-templatedir    /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/GuideWare/New_RTL CmdFile N.A.                           0
+-vdbfile        spyglass.vdb      CmdFile N.A.                           0
+-wdir           ./Project-1/initial_rtl/lint/connectivity CmdFile N.A.                           0
+-work           WORK              CmdLine -                              -
+<design_files>  ahb_clac_top.v    CmdFile N.A.                           0
+                ahb_slave.v       CmdFile N.A.                           0
+                clac.v            CmdFile N.A.                           0
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+-checkInHierarchy CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+VALUE -- yes
+(KNOWN_PARAM)
+-checkRTLCInst  CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+VALUE -- yes
+(KNOWN_PARAM)
+-ignoreModuleInstance CmdFile $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 110
+VALUE -- yes
+(KNOWN_PARAM)
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        4.4.0           $SPYGLASS_HOME/policies/spyglass
+erc             4.4.0           $SPYGLASS_HOME/policies/erc
+lint            4.4.0           $SPYGLASS_HOME/policies/lint
+morelint        4.4.0           $SPYGLASS_HOME/policies/morelint
+openmore        4.4.0           $SPYGLASS_HOME/policies/openmore
+starc2005       4.4.0           $SPYGLASS_HOME/policies/starc2005
+clock-reset     4.4.0           $SPYGLASS_HOME/policies/clock
+starc           4.4.0           $SPYGLASS_HOME/policies/starc
+starc2002       4.4.0           $SPYGLASS_HOME/policies/starc2002
+
+

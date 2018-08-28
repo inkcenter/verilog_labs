@@ -1,0 +1,126 @@
+//SpyGlass: 4.4.0
+-overloadrules STARC05-2.1.5.3+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 88
+-overloadrules STARC05-2.3.1.5b+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 106
+-overloadrules STARC02-2.5.1.9+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 80
+-overloadrules STARC-2.10.6.1+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 82
+-overloadrules STARC05-2.3.1.6+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 86
+-overloadrules STARC02-2.4.1.5+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 110
+-overloadrules STARC02-2.5.1.7+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 74
+-overloadrules STARC05-2.1.6.5+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 94
+-overloadrules STARC05-2.3.4.1v+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 285
+-overloadrules STARC05-2.1.3.1+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 59
+-overloadrules STARC05-2.2.3.3+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 100
+-templatedir $SPYGLASS_HOME/GuideWare/New_RTL // spg_backref : N.A. 0
+--template_info 'initial_rtl/lint/connectivity' // spg_backref : N.A. 0
+--template_info 'initial_rtl/lint/simulation' // spg_backref : N.A. 0
+--template_info 'initial_rtl/lint/structure' // spg_backref : N.A. 0
+--template_info 'initial_rtl/lint/synthesis' // spg_backref : N.A. 0
+-mixed // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 55
+clac.v  // spg_backref : N.A. 0
+ahb_clac_top.v  // spg_backref : N.A. 0
+ahb_slave.v  // spg_backref : N.A. 0
+-policies=latch  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=lint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=morelint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=openmore  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=starc  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=starc2002  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=starc2005  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=simulation  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 67
+-policies=erc  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=clock-reset  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=timing  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=spyglass  // spg_backref : N.A. 0
+-strict='W342,W343'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 63
+-do_not_run_W71='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 167
+-verilint_compat='yes'  // spg_backref : N.A. 0
+-treat_latch_as_combinational='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 142
+-ignoreModuleInstance='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 110
+-checkconstassign='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 167
+-assume_driver_load='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 167
+-checkInHierarchy='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+-checkRTLCInst='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+-report_inferred_cell='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 84
+-rules LatchFeedback  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 99
+-rules W450L  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 127
+-rules W442a  // spg_backref : N.A. 0
+-rules W442b  // spg_backref : N.A. 0
+-rules W442c  // spg_backref : N.A. 0
+-rules W442f  // spg_backref : N.A. 0
+-rules badimplicitSM1  // spg_backref : N.A. 0
+-rules badimplicitSM2  // spg_backref : N.A. 0
+-rules badimplicitSM4  // spg_backref : N.A. 0
+-rules bothedges  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 194
+-rules W110  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 69
+-rules W122  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 112
+-rules W496a  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 152
+-rules W496b  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 157
+-rules W19  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 117
+-rules W66  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 162
+-rules W69  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 167
+-rules W116  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 92
+-rules W123  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 110
+-rules W215  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 97
+-rules W216  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 102
+-rules W218  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 107
+-rules W263  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 122
+-rules W289  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 127
+-rules W316  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 137
+-rules W337  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 147
+-rules W352  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 152
+-rules W362  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 116
+-rules W422  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 122
+-rules W426  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 187
+-rules W480  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 137
+-rules W481a  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 142
+-rules W481b  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 147
+-rules W486  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 192
+-rules W499  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 197
+-rules W502  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 202
+-rules W336  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 142
+-rules W414  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 162
+-rules BlockHeader  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 58
+-rules W292  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 132
+-rules W71  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 172
+-rules W293  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 112
+-rules W398  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 157
+-rules W421  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 177
+-rules W424  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 182
+-rules W467  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 132
+-rules W505  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 177
+-rules W415  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 167
+-rules UndrivenInTerm-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+-rules NoAssignX-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 68
+-rules CheckDelayTimescale-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 76
+-rules DuplicateCaseLabel-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 79
+-rules NoXInCase-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 280
+-rules InferLatch  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 63
+-rules BufClock  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 69
+-rules CombLoop  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 74
+-rules STARC-2.10.6.1  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 81
+-rules STARC02-2.5.1.7  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 73
+-rules STARC02-2.4.1.5  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 109
+-rules STARC02-2.5.1.9  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 79
+-rules STARC05-2.1.3.1  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 58
+-rules STARC05-2.3.4.1v  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 284
+-rules STARC05-2.1.5.3  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 87
+-rules STARC05-2.1.6.5  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 93
+-rules STARC05-2.2.3.3  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 99
+-rules STARC05-2.3.1.5b  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 105
+-rules STARC05-2.3.1.6  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/synthesis-mixed.spq 85
+-rules sim_race02  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/simulation-mixed.spq 207
+-rules FlopClockConstant  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 84
+-rules FlopSRConst  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 94
+-rules FlopEConst  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 89
+-rules checkPinConnectedToSupply  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 74
+-rules Info_Case_Analysis  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 64
+-ignorerules CMD_define_severity02  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 60
+-dbdir ./Project-2//.SG_SaveRestoreDB  // spg_backref : N.A. 0
+-enable_save_restore  // spg_backref : N.A. 0
+
+-enable_save_restore_builtin=yes
+-dump_precompile_builtin=yes
+-vdbfile spyglass.vdb  // spg_backref : N.A. 0
+-wdir ./Project-2/Regression_Run  // spg_backref : N.A. 0
+-report=runsummary,moresimple
+-projectwdir=./Project-2

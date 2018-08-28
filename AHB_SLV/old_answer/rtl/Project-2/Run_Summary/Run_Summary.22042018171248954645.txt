@@ -1,0 +1,13 @@
+Date Created     : 22-04-2018 17:12:48
+SpyGlass Version : 4.4.0
+Project Name     : Project-2
+Goal Name        : initial_rtl/lint/synthesis
+Top              : 
+
+Message Summary
+Severity   Non-Waived  Waived
+FATAL           0         0
+ERROR           0         0
+WARNING         0         0
+INFO            2         0
+

@@ -1,0 +1,34 @@
+//SpyGlass: 4.4.0
+-overloadrules STARC05-2.1.3.1+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 59
+-templatedir $SPYGLASS_HOME/GuideWare/New_RTL // spg_backref : N.A. 0
+--template_info 'initial_rtl/lint/connectivity' // spg_backref : N.A. 0
+-mixed // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 43
+ahb_clac_top.v  // spg_backref : N.A. 0
+ahb_slave.v  // spg_backref : N.A. 0
+clac.v  // spg_backref : N.A. 0
+-policies=erc  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+-policies=lint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+-policies=morelint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+-policies=openmore  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+-policies=starc2005  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+-policies=clock-reset  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 44
+-policies=spyglass  // spg_backref : N.A. 0
+-ignoreModuleInstance='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 110
+-checkInHierarchy='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+-checkRTLCInst='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+-rules checkPinConnectedToSupply  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 74
+-rules W110  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 69
+-rules W123  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 110
+-rules UndrivenInTerm-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 64
+-rules STARC05-2.1.3.1  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 58
+-rules Info_Case_Analysis  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 53
+-ignorerules CMD_define_severity02  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/connectivity-mixed.spq 48
+-dbdir ./Project-1//.SG_SaveRestoreDB  // spg_backref : N.A. 0
+-enable_save_restore  // spg_backref : N.A. 0
+
+-enable_save_restore_builtin=yes
+-dump_precompile_builtin=yes
+-vdbfile spyglass.vdb  // spg_backref : N.A. 0
+-wdir ./Project-1/initial_rtl/lint/connectivity  // spg_backref : N.A. 0
+-report=runsummary,moresimple
+-projectwdir=./Project-1

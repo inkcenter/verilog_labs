@@ -1,0 +1,130 @@
+SpyGlass(R) Predictive Analyzer - Version 4.4.0
+Last compiled on Jul 27 2010
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Atrenta Inc. is prohibited.
+Technical support: email support@atrenta.com or dial 1-866-ATRENTA.
+
+INFO [317]    '-64bit' command-line option is redundant as default run mode is set to 64bit on 64bit machine.
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (4.4.0) ... (picked from /qixin/eda/SpyGlass-4.4.0/SPYGLASS_HOME/policies/spyglass)
+
+INFO [6]    Work Directory `./Project-2/WORK' does not exist.
+
+INFO [75]    Creating the Work Directory `./Project-2/WORK/64' for 64bit precompiled dump.
+Checking Rule ZeroSizeFile (Rule 1 of total 83) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule PrecompileLibCheck01 (Rule 2 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 3 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 4 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 5 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 6 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 7 of total 83) .... done (Time = 0s, Memory = 0.8K)
+Checking Rule SGDC_clock05 (Rule 8 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 9 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 10 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 11 of total 83) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_require_path03 (Rule 12 of total 83) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_require_value03 (Rule 13 of total 83) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_reset02 (Rule 14 of total 83) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_reset03 (Rule 15 of total 83) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_voltagedomain05 (Rule 16 of total 83) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_voltagedomain06 (Rule 17 of total 83) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_voltagedomain07 (Rule 18 of total 83) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 19 of total 83) .... done (Time = 0s, Memory = 4.6K)
+Checking Rule SGDC_supply01 (Rule 20 of total 83) .... done (Time = 0s, Memory = 4.5K)
+Checking Rule SGDC_waive01 (Rule 21 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 22 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 23 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 24 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 25 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 26 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 27 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 28 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 29 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 30 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 31 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 32 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 33 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 34 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 35 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 36 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 37 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 38 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 39 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 40 of total 83) .... done (Time = 0s, Memory = 2.7K)
+Checking Rule SGDC_libgroup01 (Rule 41 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 42 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 43 of total 83) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule SGDC_power_data01 (Rule 44 of total 83) .... done (Time = 0s, Memory = 2.5K)
+Checking Rule sdc_init_rule (Rule 45 of total 83) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule CMD_ignorelibs01 (Rule 46 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 47 of total 83) .... done (Time = 0s, Memory = 0.2K)
+INFO: Higher Capacity Mode enabled
+Checking Rule ReportStopSummary (Rule 48 of total 83) .... done (Time = 0s, Memory = 0.0K)
+ Analyzing source file "ahb_clac_top.v" ....
+ Analyzing source file "ahb_slave.v" ....
+ Analyzing source file "clac.v" ....
+ Elaborating Top Verilog Design Unit 'ahb_clac_top' .....
+ done
+Checking Rule ElabSummary (Rule 49 of total 83) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule ReportCheckDataSummary (Rule 50 of total 83) .... done (Time = 0s, Memory = 0.1K)
+ Reading SGDC file "./Project-2/Design_Read/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating SGDC file "./Project-2/Design_Read/spyglass_spysch/constraint/pragma2Constraint.sgdc" from pragmas in HDL source files ....
+ Reading SGDC file "./Project-2/Design_Read/spyglass_spysch/constraint/pragma2Constraint.sgdc" ...
+ Reading included SGDC file "./Project-2/Design_Read/spyglass_spysch/constraint/pragma2Constraint_varfile.sgdc" ....
+Checking Rule SGDC_waive37 (Rule 51 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 52 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule DetectTopDesignUnits (Rule 53 of total 83)
+ Detected 1 top level design units:
+     ahb_clac_top
+ .... done (Time = 0s, Memory = 0.3K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed.
+Checking Rule SGDC_testmode03 (Rule 54 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 55 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 56 of total 83) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule HdlLibDuCheck (Rule 57 of total 83) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule RtlDesignInfo (Rule 58 of total 83) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule CheckCelldefine (Rule 59 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 60 of total 83) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule SGDC_waive26 (Rule 61 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive27 (Rule 62 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 63 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule AnalyzeBBox (Rule 64 of total 83) .... done (Time = 0s, Memory = 0.2K)
+Checking Rule ReportCheckDataSummary (Rule 50 of total 83) .... done (Time = 0s, Memory = 0.1K)
+Checking Rule SGDC_waive24 (Rule 65 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 66 of total 83) .... done (Time = 0s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 67 of total 83) .... done (Time = 0s, Memory = 0.0K)
+
+SpyGlass Rule Checking Complete.
+
+Reduced ruleset ran for specified policies.
+Use the '-fullpolicy' option to run all rules.
+
+Generating moresimple report from './Project-2/Design_Read/spyglass.vdb' to './Project-2/Design_Read/spyglass_reports/moresimple.rpt' ....
+
+Generating no_msg_reporting_rules report from './Project-2/Design_Read/spyglass.vdb' to './Project-2/Design_Read/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Policy specific data (reports) are present in the directory './Project-2/Design_Read/spyglass_reports'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Command-line read  :      0 error,      0 warning,      0 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         ahb_clac_top   (file: ahb_clac_top.v)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      0 warning,      2 information messages
+
+  Total Number of Generated Messages     :         2 (0 error, 0 warning, 2 Infos)
+  Number of Reported Messages            :         2 (0 error, 0 warning, 2 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+SpyGlass Exit Code 0 (Rule-checking completed without errors or warnings)

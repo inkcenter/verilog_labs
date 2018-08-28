@@ -1,0 +1,7 @@
+Current results by Block,,,,,,,,
+            ,,         Unresolved Messages,,,      Waived Messages,,
+Block,Goal Run,FATAL,ERROR,WARNING,INFO,FATAL,ERROR,WARNING,INFO
+<Unspecified>,initial_rtl/lint/connectivity,0,0,0,3,0,0,0,0
+<Unspecified>,initial_rtl/lint/simulation,0,0,5,2,0,0,0,0
+<Unspecified>,initial_rtl/lint/structure,0,0,0,3,0,0,0,0
+<Unspecified>,initial_rtl/lint/synthesis,0,0,2,2,0,0,0,0

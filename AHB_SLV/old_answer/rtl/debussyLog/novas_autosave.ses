@@ -1,0 +1,79 @@
+@debussy rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_I-2014.03
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+[hb]
+viewport = 54 25 1305 731 427 489 48 1303
+activeNode = "ahb_clac_top.U_slave_if"
+activeScope = "ahb_clac_top.U_slave_if"
+activeFile = "/qixin/proj_users/cary/training/soc_training_2018_0415/design_labs/ahb_slave/rtl/ahb_slave.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "ahb_clac_top.U_slave_if"
+Scope2 = "ahb_clac_top"
+Scope3 = "ahb_clac_top.U_clac"
+multipleSelection = 1 83 29 0 0
+sdfCheckUndef = FALSE
+[hb.sourceTab.1]
+scope = ahb_clac_top.U_slave_if
+File = /qixin/proj_users/cary/training/soc_training_2018_0415/design_labs/ahb_slave/rtl/ahb_slave.v
+Line = 1
+[imp.design1]
+dbEnum =  oh
+invokeDir = /qixin/proj_users/cary/training/soc_training_2018_0415/design_labs/ahb_slave/rtl
+design = DebussyLib
+hostCommand = hostCommand /qixin/proj_users/cary/training/soc_training_2018_0415/design_labs/ahb_slave/rtl/clac.v /qixin/proj_users/cary/training/soc_training_2018_0415/design_labs/ahb_slave/rtl/ahb_slave.v /qixin/proj_users/cary/training/soc_training_2018_0415/design_l\
+abs/ahb_slave/rtl/ahb_clac_top.v
+[schematics.0]
+viewport = 0 30 872 489
+viewbbox = -7558 -4800 28058 12800
+design = . "ahb_clac_top" DebussyLib
+schmaticId = 2
+partial = False
+partialHier = False
+display_port_name = False
+display_pin_name = False
+display_instance_name = False
+display_local_net_name = False
+display_complete_name = False
+display_entity_name = True
+display_arch_name = True
+display_module_name = True
+display_high_contrast = False
+display_back_annotation = False
+display_back_annotation_in_Line = False
+display_param_list = False
+auto_fit_select_set = False
+pre_select = True
+show_full_name = False
+display_short_name = True
+display_preselect_tip = False
+append_view_obj = True
+cmdToolbar = True
+msgToolbar = True
+traceMode = Hierarchical
+originate_from = from_import_scope
+full_hier_partial_dis = False
+detail_rtl = False
+hide_extraneous_bus = True
+hierFlatten = False

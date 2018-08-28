@@ -1,0 +1,10 @@
+//SpyGlass: 4.4.0
+-mixed // spg_backref : N.A. 0
+ahb_clac_top.v  // spg_backref : N.A. 0
+ahb_slave.v  // spg_backref : N.A. 0
+clac.v  // spg_backref : N.A. 0
+-policies=spyglass  // spg_backref : N.A. 0
+-dump_precompile_builtin=yes
+-vdbfile spyglass.vdb  // spg_backref : N.A. 0
+-wdir ./Project-2/Design_Read  // spg_backref : N.A. 0
+-projectwdir=./Project-2

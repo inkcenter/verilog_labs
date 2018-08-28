@@ -1,0 +1,4 @@
+3 0
+1 clac.v
+2 ahb_clac_top.v
+3 ahb_slave.v

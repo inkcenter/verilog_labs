@@ -6,14 +6,19 @@ command.*
 *.db
 *.lib
 
+# Verdi
+novas.*
+verdiLog/*
+
 # Simulation
 DVEfiles/*
 csrc/*
 simv
-simv.*/
+simv.*/*
 ucli.key
 *.vpd
 *.fsdb
+sim_*/*
 
 # Synthesis
 *.ddc

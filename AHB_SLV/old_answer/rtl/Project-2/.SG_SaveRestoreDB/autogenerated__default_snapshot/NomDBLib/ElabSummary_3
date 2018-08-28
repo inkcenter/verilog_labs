@@ -1,0 +1,28 @@
+================================================================================
+Elaborated Name: 'ahb_slave_clac'
+    (RTL Design Unit name: 'ahb_slave_clac', ahb_slave.v:2)
+     Parameters (Total: 9)
+         IDLE        = 0 (default: 2'b00)
+         BUSY        = 1 (default: 2'b01)
+         NONSEQ      = 2 (default: 2'b10)
+         SEQ         = 3 (default: 2'b11)
+         ENABLE_ADDR = 0 (default: 8'h00)
+         CTRL_ADDR   = 4 (default: 8'h04)
+         OPA_ADDR    = 8 (default: 8'h08)
+         OPB_ADDR    = 12 (default: 8'h0c)
+         RESULT_ADDR = 16 (default: 8'h10)
+     Instances (Total: 1): ahb_clac_top.U_slave_if 
+
+================================================================================
+
+Elaborated Name: 'clac'
+    (RTL Design Unit name: 'clac', clac.v:1)
+     Parameters (Total: 0)
+     Instances (Total: 1): ahb_clac_top.U_clac 
+
+================================================================================
+
+Elaborated Name: 'ahb_clac_top'
+    (RTL Design Unit name: 'ahb_clac_top', ahb_clac_top.v:2)
+     Parameters (Total: 0)
+================================================================================

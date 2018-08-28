@@ -1,0 +1,17 @@
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "W263" 3
+"TEMPLATE"
+["initial_rtl/lint/simulation"]
+"RULE_ORDER"
+[9]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Case"]

@@ -1,0 +1,39 @@
+//SpyGlass: 4.4.0
+-overloadrules STARC02-2.4.1.5+severity=Warning // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 110
+-templatedir $SPYGLASS_HOME/GuideWare/New_RTL // spg_backref : N.A. 0
+--template_info 'initial_rtl/lint/structure' // spg_backref : N.A. 0
+-mixed // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 55
+ahb_clac_top.v  // spg_backref : N.A. 0
+ahb_slave.v  // spg_backref : N.A. 0
+clac.v  // spg_backref : N.A. 0
+-policies=erc  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=timing  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=clock-reset  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=starc2005  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=openmore  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=starc2002  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=lint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=latch  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=starc  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-policies=spyglass  // spg_backref : N.A. 0
+-policies=morelint  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 56
+-report_inferred_cell='yes'  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 84
+-rules FlopClockConstant  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 84
+-rules FlopSRConst  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 94
+-rules FlopEConst  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 89
+-rules Info_Case_Analysis  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 64
+-rules BufClock  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 69
+-rules CombLoop  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 74
+-rules STARC02-2.4.1.5  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 109
+-rules LatchFeedback  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 99
+-rules DuplicateCaseLabel-ML  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 79
+-ignorerules CMD_define_severity02  // spg_backref : $SPYGLASS_HOME/GuideWare/New_RTL/initial_rtl/lint/structure-mixed.spq 60
+-dbdir ./Project-1//.SG_SaveRestoreDB  // spg_backref : N.A. 0
+-enable_save_restore  // spg_backref : N.A. 0
+
+-enable_save_restore_builtin=yes
+-dump_precompile_builtin=yes
+-vdbfile spyglass.vdb  // spg_backref : N.A. 0
+-wdir ./Project-1/initial_rtl/lint/structure  // spg_backref : N.A. 0
+-report=runsummary,moresimple
+-projectwdir=./Project-1
