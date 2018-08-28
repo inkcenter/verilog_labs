@@ -1,0 +1,8 @@
+../rtl/ahb_slave_if.v
+../rtl/bt_sram_8kx8.v
+../rtl/sram_bist.v
+../rtl/sram_core.v
+../rtl/sramc_top.v
+../tb/sram_core_tb.v
+../tb/sramc_top_tb.v
+../tb/sram_tb.v

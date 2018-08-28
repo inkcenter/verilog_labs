@@ -1,0 +1,3 @@
+../model/sram_sp_hse_8kx8.v
+../model/tsmc18_cg.v
+../model/tsmc18.v

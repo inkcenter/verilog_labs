@@ -1,0 +1,3 @@
+//../tb/sram_core_tb.v
+../tb/sramc_top_tb.v
+//../tb/sram_tb.v
